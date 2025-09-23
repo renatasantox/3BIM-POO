@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 536513688}
   - component: {fileID: 536513687}
   m_Layer: 0
-  m_Name: sBullet_0
+  m_Name: Bala
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 638175005}
   - component: {fileID: 638175004}
   m_Layer: 0
-  m_Name: sGun_0
+  m_Name: Arma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 2029518392}
   - component: {fileID: 2029518391}
   m_Layer: 0
-  m_Name: sEnemy_strip7_6
+  m_Name: Inimigo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -612,7 +612,7 @@ GameObject:
   - component: {fileID: 2083449494}
   - component: {fileID: 2083449493}
   m_Layer: 0
-  m_Name: sPlayerIdle_strip4_0
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
