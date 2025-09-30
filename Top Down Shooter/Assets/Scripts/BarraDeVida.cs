@@ -1,16 +1,30 @@
 using UnityEngine;
+using UnityEngine.UI;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class BarraDeVida : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public Slider sliderVidasRestantes;
+    
+    public Personagem personagem;
+    [SerializeField]
+    private int vidasRestantes = 0;
+    
+  
     void Start()
     {
-        
+        if (personagem != null && sliderVidasRestantes != null)
+        {
+            sliderVidasRestantes.minValue = 0;
+            sliderVidasRestantes.maxValue = personagem.getVida();
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (sliderVidasRestantes != null)
+        {
+            vidasRestantes = personagem.getVida();
+            sliderVidasRestantes.value = vidasRestantes;
+        }
     }
 }
